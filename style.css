@@ -1,0 +1,121 @@
+/* ========== HEADER ========== */
+header {
+    border-bottom: 1px solid red;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+body {
+    font-family: "Noto Sans", sans-serif;
+}
+
+/* Logo Section */
+.megaMart_logo {
+    width: 20%;
+}
+
+.megaMart_logo img {
+    width: 50px;
+    height: 50px;
+}
+
+/* Menu Section */
+.megaMart_headerMenu {
+    width: 60%;
+    text-align: center;
+}
+
+.megaMart_headerMenu ul {
+    padding: 0;
+    margin: 0;
+}
+
+.megaMart_headerMenu ul li {
+    display: inline;
+    margin: 0 10px;
+    list-style-type: none;
+}
+
+.megaMart_headerMenu ul li a {
+    text-decoration: none;
+    color: black;
+    padding: 5px;
+}
+
+/* Icons Section */
+.megaMart_headerIcons {
+    width: 25%;
+    text-align: right;
+}
+
+.megaMart_headerIcons img {
+    width: 50px;
+    height: 50px;
+    margin-left: 10px;
+}
+
+
+/* ========== NEW ARRIVAL SECTION ========== */
+
+.megaMart_newUpdate {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.megaMart_newUpdate h2 {
+    color: yellowgreen;
+    font-size: 40px;
+    margin: 10px 0;
+}
+
+.megaMart_newUpdate h3 {
+    font-weight: bold;
+    font-size: 20px;
+    font-family: monospace;
+    color: blueviolet;
+    margin: 0;
+}
+
+/* ========== PRODUCTS SECTION ========== */
+
+.megaMart_newUpdate_product {
+    padding: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.megaMart_newUpdate_product_div {
+    text-align: center;
+    width: 22%; /* 4 per row layout */
+}
+
+.megaMart_newUpdate_product_div img {
+    height: 200px;
+    width: 200px;
+    /* object-fit: cover; */
+}
+
+.megaMart_newUpdate_product_div p {
+    font-size: 18px;
+    margin: 5px 0;
+    font-weight: bold;
+}
+
+.megaMart_newUpdate_product_div span {
+    color: green;
+    font-size: 16px;
+}
+
+
+/* ========== FOOTER ========== */
+footer {
+    margin-top: 20px;
+    text-align: center;
+    border: 1px solid red;
+    padding: 10px;
+    font-size: 14px;
+}
