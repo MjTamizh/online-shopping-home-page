@@ -16,4 +16,5 @@ Welcome to **MegaMart**, a responsive and clean eCommerce landing page built usi
 ---
 
 ## Made with ❤️ by mjtamil
-![alt text](image.png)
+
+![alt text](image-1.png)
