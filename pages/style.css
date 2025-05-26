@@ -1,0 +1,65 @@
+body {
+    font-family: "Noto Sans", sans-serif;
+}
+header {
+    display: flex;
+    justify-content: center; /* centers children horizontally */
+    align-items: center;     /* centers children vertically */
+    flex-direction: column;  /* stack h1 and other elements vertically */
+    text-align: center;
+    color: rgb(153, 0, 255);
+}
+
+form {
+    border: 2px solid rgb(211, 49, 240);
+    padding: 20px;
+    width: 50%;
+    margin: 0 auto;
+}
+
+
+label {
+    color: rgb(153, 0, 255);
+    display: block;
+    margin: 10px 0px;
+}
+
+input {
+    width: 90%;
+    padding: 10px;
+    font-weight: bold;
+    margin: 10px 0;
+    border-radius: 10px;
+    border: 2px solid rgb(186, 209, 243);
+}
+
+input:focus {
+    outline-color: rgb(32, 44, 218);
+}
+
+
+#submit_btn {
+    color: black;
+    background-color: rgb(186, 209, 243);
+    border: 5px double rgb(243, 242, 247);
+    width: 50%;
+    display: block;
+    margin: 20px auto;
+    font-weight: bold;
+    font-size: 15px;
+}
+ 
+#submit_btn:hover{
+    background-color: rgb(32, 44, 218);
+    color: white;
+}
+/*
+tried for invalid input
+ input:invalid {
+    border: 2px solid red;
+}
+
+input:focus:invalid {
+    border: 2px solid red;
+} */
+ 
