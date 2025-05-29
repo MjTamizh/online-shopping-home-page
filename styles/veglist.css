@@ -1,0 +1,55 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f9f9f9;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+header {
+  background-color: #ff6347;
+  color: white;
+  padding: 1rem;
+}
+
+.veggie-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  padding: 2rem;
+}
+
+.veggie-card {
+  background-color: #fff;
+  padding: 1rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 320px;
+  transition: transform 0.2s ease;
+}
+
+.veggie-card:hover {
+  transform: scale(1.02);
+}
+
+h2 {
+  color: #333;
+}
+
+audio, video {
+  margin-top: 1rem;
+  width: 100%;
+  border-radius: 6px;
+}
+
+footer {
+  background-color: #eee;
+  padding: 1rem;
+  font-size: 0.9rem;
+}
+.map {
+  margin-top: 1rem;
+  border-radius: 8px;
+  overflow: hidden;
+}
