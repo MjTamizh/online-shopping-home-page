@@ -18,3 +18,11 @@ Welcome to **MegaMart**, a responsive and clean eCommerce landing page built usi
 ## Made with ❤️ by mjtamil
 
 ![alt text](image-1.png)
+
+<!-- resourece  
+icons
+https://www.flaticon.com/animated-icons
+
+ai image for blogs
+https://pixabay.com/images/
+-->

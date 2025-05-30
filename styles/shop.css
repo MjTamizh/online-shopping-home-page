@@ -1,0 +1,157 @@
+    body {
+        font-family: "Noto Sans", sans-serif;
+    }
+
+    /* ========== HEADER ========== */
+    header {
+        border-bottom: 1px solid red;
+        padding: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    body {
+        font-family: "Noto Sans", sans-serif;
+    }
+
+    /* Logo Section */
+    .megaMart_logo {
+        width: 20%;
+    }
+
+    .megaMart_logo img {
+        width: 50px;
+        height: 50px;
+    }
+
+    /* Menu Section */
+    .megaMart_headerMenu {
+        width: 60%;
+        text-align: center;
+    }
+
+    .megaMart_headerMenu ul {
+        padding: 0;
+        margin: 0;
+    }
+
+    .megaMart_headerMenu ul li {
+        display: inline;
+        margin: 0 10px;
+        list-style-type: none;
+    }
+
+    .megaMart_headerMenu ul li a {
+        text-decoration: none;
+        color: black;
+        padding: 5px;
+    }
+
+    /* Icons Section */
+    .megaMart_headerIcons {
+        width: 25%;
+        text-align: right;
+    }
+
+    .megaMart_headerIcons img {
+        width: 50px;
+        height: 50px;
+        margin-left: 10px;
+    }
+
+
+    .productCart_Offer_Main {
+        /* border: 2px solid rebeccapurple; */
+        width: 85%;
+        margin: 10px auto 0 auto;
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+
+    .productCart_Offers_Each_Card {
+        border: 1px solid #ccc;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        background-color: #fff;
+        border-radius: 8px;
+        width: 400px;
+        margin: 10px;
+        padding: 15px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    #productCart_Offers_Each_Card_Img {
+        height: 200px;
+        width: 200px;
+        /* border: 2px solid red; */
+        margin: 10px auto;
+    }
+
+    .productCart_Offers_subHeading_Div {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        width: 100%;
+        background-color: #f0f8ff;
+        border: 1px solid #ddd;
+        border-radius: 6px;
+        margin-top: 15px;
+        margin-bottom: 10px;
+    }
+
+
+    .productCart_Offers_subHeading_Div img {
+        /* border: 2px solid red; */
+        height: 40px;
+        width: 40px;
+    }
+
+    .productCart_Offers_subHeading_Div h3 {
+        color: yellowgreen;
+        /* border: 2px solid red; */
+        margin: 0;
+        /* remove default margin */
+        font-size: 1.5rem;
+    }
+
+    .productCart_Offers_Each_Card p {
+        text-align: start;
+        /* border: 2px solid red; */
+        height: 50px;
+        font-size: 1rem;
+        margin-top: 10px;
+        color: blueviolet;
+    }
+
+    .productCart_Offers_Each_Card button {
+        padding: 8px 16px;
+        border: 4px double yellowgreen;
+        background-color: white;
+        color: blueviolet;
+        border-radius: 6px;
+        cursor: pointer;
+        font-size: 14px;
+        transition: background-color 0.3s ease, color 0.3s ease;
+    }
+
+    .productCart_Offers_Each_Card button:hover {
+        background-color: yellowgreen;
+        color: white;
+    }
+
+
+
+
+    /* ========== FOOTER ========== */
+    footer {
+        margin-top: 20px;
+        text-align: center;
+        border: 1px solid red;
+        padding: 10px;
+        font-size: 14px;
+    }

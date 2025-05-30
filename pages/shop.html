@@ -1,122 +1,149 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>shopping page</title>
-    <link rel="stylesheet" href="/style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap"
-        rel="stylesheet">
-</head>
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>shopping page</title>
+        <link rel="stylesheet" href="/styles/shop.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+            rel="stylesheet">
+    </head>
 
-<body>
-    <header>
-        <div class="megaMart_logo" id="">
-            <img src="/assets/Logo/online-shopping.gif" alt="megaMart_logo">
+    <body>
+        <header>
+            <div class="megaMart_logo" id="">
+                <img src="/assets/Logo/online-shopping.gif" alt="megaMart_logo">
+            </div>
+            <nav class="megaMart_headerMenu" id="">
+                <ul>
+                    <li><a href="/index.html">Home</a></li>
+                    <li><a href="/pages/shop.html">Shop</a></li>
+                    <li><a href="/pages/product.html">Product</a></li>
+                    <li><a href="/pages/blogs.html">Blogs</a></li>
+                </ul>
+            </nav>
+            <div class="megaMart_headerIcons" id="">
+                <img src="/assets/Features/search.gif" alt="megaMart_search">
+                <img src="/assets/Features/shopping-cart.gif" alt="megaMart_cart">
+                <img src="/assets/Features/location.gif" alt="megaMart_locations">
+            <a href="/pages/login.html"><img src="/assets/Features/profile.gif" alt="megaMart_user">
+    </a> 
+            </div>
+
+
+        </header>
+
+
+    <main>
+    <section class="productCart_Offer_Main">
+
+        <!-- Sweet Potato Card -->
+        <div class="productCart_Offers_Each_Card"> 
+        <img src="/assets/images/vegtables/sweet-potato.png" alt="sweet_potato_picture" id="productCart_Offers_Each_Card_Img">
+
+        <div class="productCart_Offers_subHeading_Div">
+            <img src="/assets/images/productCart/arrow.gif" alt="pointValue">
+            <h3>Sweet Potato - 20% OFF</h3>
         </div>
-        <nav class="megaMart_headerMenu" id="">
-            <ul>
-                <li><a href="/index.html">Home</a></li>
-                <li><a href="/pages/shop.html">Shop</a></li>
-                <li><a href="/pages/product.html">Product</a></li>
-                <li><a href="/pages/blogs.html">Blogs</a></li>
-            </ul>
-        </nav>
-        <div class="megaMart_headerIcons" id="">
-            <img src="/assets/Features/search.gif" alt="megaMart_search">
-            <img src="/assets/Features/shopping-cart.gif" alt="megaMart_cart">
-            <img src="/assets/Features/location.gif" alt="megaMart_locations">
-           <a href="/pages/login.html"><img src="/assets/Features/profile.gif" alt="megaMart_user">
-</a> 
-        </div>
-
-
-    </header>
-    <section class="megaMart_newUpdate" id="">
-    <h2>See Our Latest</h2>
-    <h3>New Arrivals - Latest Vegetable Prices</h3>
-</section>
-
-
-    <!-- <footer> MegaMart – Everything You Need, All in One Place</footer> -->
-    <footer>
-        <p> &copy; 2025 ShopSmart. All rights reserved.</p>
-    </footer>
-
-</body>
-
-</html>
-
-<!-- <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Shop</title>
-    <link rel="stylesheet" href="../style.css">
-     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap"
-        rel="stylesheet">
-</head>
-<body>
-    <header>
-        <div class="megaMart_logo" id="">
-            <img src="../assets/Logo/online-shopping.gif" alt="megaMart_logo">
-        </div>
-        <nav class="megaMart_headerMenu" id="">
-            <ul>
-                <li><a href="/index.html">Home</a></li>
-                <li><a href="../pages/shop.html">Shop</a></li>
-                <li><a href="../pages/product.html">Product</a></li>
-                <li><a href="../pages/blogs.html">Blogs</a></li>
-            </ul>
-        </nav>
-        <div class="megaMart_headerIcons" id="">
-            <img src="/assets/Features/search.gif" alt="megaMart_search">
-            <img src="/assets/Features/shopping-cart.gif" alt="megaMart_cart">
-            <img src="/assets/Features/location.gif" alt="megaMart_locations">
-           <a href="/pages/login.html"><img src="/assets/Features/profile.gif" alt="megaMart_user">
-</a> 
+        <p>Sweet potatoes are naturally sweet, rich in fiber, and packed with vitamins. Grab them fresh at 20% off!</p>
+        <button>Order Now</button>
         </div>
 
+        <!-- Beetroot Card -->
+        <div class="productCart_Offers_Each_Card"> 
+        <img src="/assets/images/vegtables/beetroot.png" alt="beetroot_picture" id="productCart_Offers_Each_Card_Img">
 
-    </header>
-    <!-- <table>
-        <thead>
-            <th>S.No</th>
-            <th>Name</th>
-            <th>Age</th>
-            <th>Gender</th>
-        </thead>
-        <tbody>
-            <tr>
-                <td>001</td>
-                <td>Tamil</td>
-                <td>30</td>
-                <td>Male</td>
-            </tr>
-                        <tr>
-                <td>002</td>
-                <td>Koushik</td>
-                <td>22</td>
-                <td>Male</td>
-            </tr>
-            <tr>
-                <td>003</td>
-                <td>Prem</td>
-                <td>31</td>
-                <td>Male</td>
-            </tr>
-            <tr>
-                <td>004</td>
-                <td>Ragu</td>
-                <td>27</td>
-                <td>Male</td>
-            </tr>
-        </tbody>
-    </table> 
-</body>
-</html> -->
+        <div class="productCart_Offers_subHeading_Div">
+            <img src="/assets/images/productCart/arrow.gif" alt="pointValue">
+            <h3>Beetroot - 30% OFF</h3>
+        </div>
+        <p>Beetroot is full of antioxidants and known for improving blood flow. Enjoy it now with 30% off!</p>
+        <button>Order Now</button>
+        </div>
+
+    </section>
+    </main>
+
+
+        <!-- <footer> MegaMart – Everything You Need, All in One Place</footer> -->
+        <footer>
+            <p> &copy; 2025 ShopSmart. All rights reserved.</p>
+        </footer>
+
+    </body>
+
+    </html>
+
+    <!-- <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Shop</title>
+        <link rel="stylesheet" href="../style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+            rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <div class="megaMart_logo" id="">
+                <img src="../assets/Logo/online-shopping.gif" alt="megaMart_logo">
+            </div>
+            <nav class="megaMart_headerMenu" id="">
+                <ul>
+                    <li><a href="/index.html">Home</a></li>
+                    <li><a href="../pages/shop.html">Shop</a></li>
+                    <li><a href="../pages/product.html">Product</a></li>
+                    <li><a href="../pages/blogs.html">Blogs</a></li>
+                </ul>
+            </nav>
+            <div class="megaMart_headerIcons" id="">
+                <img src="/assets/Features/search.gif" alt="megaMart_search">
+                <img src="/assets/Features/shopping-cart.gif" alt="megaMart_cart">
+                <img src="/assets/Features/location.gif" alt="megaMart_locations">
+            <a href="/pages/login.html"><img src="/assets/Features/profile.gif" alt="megaMart_user">
+    </a> 
+            </div>
+
+
+        </header>
+        <!-- <table>
+            <thead>
+                <th>S.No</th>
+                <th>Name</th>
+                <th>Age</th>
+                <th>Gender</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>001</td>
+                    <td>Tamil</td>
+                    <td>30</td>
+                    <td>Male</td>
+                </tr>
+                            <tr>
+                    <td>002</td>
+                    <td>Koushik</td>
+                    <td>22</td>
+                    <td>Male</td>
+                </tr>
+                <tr>
+                    <td>003</td>
+                    <td>Prem</td>
+                    <td>31</td>
+                    <td>Male</td>
+                </tr>
+                <tr>
+                    <td>004</td>
+                    <td>Ragu</td>
+                    <td>27</td>
+                    <td>Male</td>
+                </tr>
+            </tbody>
+        </table> 
+    </body>
+    </html> -->

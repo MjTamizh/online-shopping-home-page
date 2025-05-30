@@ -1,0 +1,184 @@
+/* ========== HEADER ========== */
+header {
+    border-bottom: 1px solid red;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+body {
+    font-family: "Noto Sans", sans-serif;
+}
+
+ul,
+li {
+    text-decoration: none;
+    list-style: none;
+}
+
+/* Logo Section */
+.megaMart_logo {
+    width: 20%;
+}
+
+.megaMart_logo img {
+    width: 50px;
+    height: 50px;
+}
+
+/* Menu Section */
+.megaMart_headerMenu {
+    width: 60%;
+    text-align: center;
+}
+
+.megaMart_headerMenu ul {
+    padding: 0;
+    margin: 0;
+}
+
+.megaMart_headerMenu ul li {
+    display: inline;
+    margin: 0 10px;
+    list-style-type: none;
+}
+
+.megaMart_headerMenu ul li a {
+    text-decoration: none;
+    color: black;
+    padding: 5px;
+}
+
+/* Icons Section */
+.megaMart_headerIcons {
+    width: 25%;
+    text-align: right;
+}
+
+.megaMart_headerIcons img {
+    width: 50px;
+    height: 50px;
+    margin-left: 10px;
+}
+
+
+.blog-title h1 {
+    text-align: center;
+    color: yellowgreen;
+    padding: 20px;
+    background-color: #f6f7f9;
+    border: 1px solid #ddd;
+
+
+}
+
+
+/* blog-section */
+.blog-section {
+    /* border: 2px solid rebeccapurple; */
+    margin: 5px 10%;
+
+}
+
+.filter-info {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 10px;
+    width: 50%;
+    border-radius: 6px;
+    margin-top: 15px;
+    margin: 10px;
+    /* border: 2px solid red; */
+}
+
+#Vegetable_filter_icon {
+    height: 50px;
+    width: 50px;
+}
+
+.blog-filter-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 1rem;
+    width: 80%;
+    margin: 10px;
+    padding: 0;
+    list-style: none;
+    /* border: 2px solid rebeccapurple; */
+}
+
+.blog-filter-list li {
+    padding: 4px 12px;
+    font-size: 1rem;
+    /* border: 2px solid red; */
+    border-radius: 15px;
+    white-space: nowrap;
+    cursor: pointer;
+    border: 4px double yellowgreen;
+
+
+
+}
+
+ .filter-item_first{
+        background-color: yellowgreen;
+        color: white;
+    }
+
+    .blog-filter-list li:hover{
+                background-color: yellowgreen;
+                 color: white;
+    }
+
+
+main {
+  /* border: 2px solid red; */
+  margin: 20px 10%;
+  display: flex;
+  flex-wrap: wrap;             
+  gap: 20px;                    
+  justify-content: space-between;
+}
+
+.blog-card {
+  width: 30%;
+  box-sizing: border-box;
+  padding: 10px;
+  border: 1px solid #ccc;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border-radius: 8px;
+}
+
+.blog-card:hover {
+  transform: translateY(-5px); 
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  border-color: yellowgreen;
+  background-color: #f9fff6; 
+}
+
+
+.blog-image img {
+  width: 100%;                
+  height: 200px;
+  object-fit: cover;           
+  border-radius: 6px;
+}
+
+.blog-author{
+    color: yellowgreen;
+    font-weight: bold;
+}
+
+ /* ========== FOOTER ========== */
+    footer {
+        margin-top: 20px;
+        text-align: center;
+        border: 1px solid red;
+        padding: 10px;
+        font-size: 14px;
+    }
