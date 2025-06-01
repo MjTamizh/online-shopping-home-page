@@ -58,7 +58,6 @@ body {
 
 
 /* ========== NEW ARRIVAL SECTION ========== */
-
 .megaMart_newUpdate {
     text-align: center;
     margin-top: 20px;
@@ -78,8 +77,8 @@ body {
     margin: 0;
 }
 
-/* ========== PRODUCTS SECTION ========== */
 
+/* ========== PRODUCTS SECTION ========== */
 .megaMart_newUpdate_product {
     padding: 50px;
     display: flex;
@@ -90,13 +89,12 @@ body {
 
 .megaMart_newUpdate_product_div {
     text-align: center;
-    width: 22%; /* 4 per row layout */
+    width: 22%;
 }
 
 .megaMart_newUpdate_product_div img {
     height: 200px;
     width: 200px;
-    /* object-fit: cover; */
 }
 
 .megaMart_newUpdate_product_div p {

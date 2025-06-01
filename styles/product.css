@@ -1,0 +1,149 @@
+/* ========== HEADER ========== */
+header {
+  border-bottom: 1px solid red;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+body {
+  font-family: "Noto Sans", sans-serif;
+}
+
+/* Logo Section */
+.megaMart_logo {
+  width: 20%;
+}
+
+.megaMart_logo img {
+  width: 50px;
+  height: 50px;
+}
+
+/* Menu Section */
+.megaMart_headerMenu {
+  width: 60%;
+  text-align: center;
+}
+
+.megaMart_headerMenu ul {
+  padding: 0;
+  margin: 0;
+}
+
+.megaMart_headerMenu ul li {
+  display: inline;
+  margin: 0 10px;
+  list-style-type: none;
+}
+
+.megaMart_headerMenu ul li a {
+  text-decoration: none;
+  color: black;
+  padding: 5px;
+}
+
+/* Icons Section */
+.megaMart_headerIcons {
+  width: 25%;
+  text-align: right;
+}
+
+.megaMart_headerIcons img {
+  width: 50px;
+  height: 50px;
+  margin-left: 10px;
+}
+
+
+.product-intro {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 5px;
+  flex-wrap: wrap;
+  margin: 40px auto;
+  padding: 20px;
+  max-width: 1200px;
+}
+
+.product-image {
+  padding: 10px;
+  flex: 1;
+  min-width: 280px;
+}
+
+.product-image img {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  border-radius: 8px;
+}
+
+.product-description {
+  flex: 2;
+  min-width: 300px;
+}
+
+.product-description h1 {
+  font-size: 2.5rem;
+  color: yellowgreen;
+  margin-bottom: 5px;
+}
+
+.product-description p {
+  font-size: 1rem;
+  line-height: 1.5;
+  color: blueviolet;
+}
+
+
+.product-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 20px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.product-gallery div {
+  width: 22%;
+  text-align: center;
+  padding: 10px;
+  border-radius: 8px;
+  background-color: #fff;
+}
+
+.product-gallery img {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin: auto;
+  display: block;
+}
+
+.product-gallery h4 {
+  margin-top: 10px;
+  font-size: 1.1rem;
+  color: blueviolet;
+}
+
+
+.product-gallery img:hover {
+  transform: translateY(-5px);
+}
+
+
+
+/* ========== FOOTER ========== */
+footer {
+  margin-top: 20px;
+  text-align: center;
+  border: 1px solid red;
+  padding: 10px;
+  font-size: 14px;
+}

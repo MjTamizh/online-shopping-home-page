@@ -1,28 +1,29 @@
+#MegaMart – eCommerce Landing Page
 
-# 🛒 MegaMart – eCommerce Landing Page
+## Welcome to MegaMart, a responsive and clean eCommerce landing page built using HTML5 and CSS3. This project is a static front-end UI showcasing a simple online grocery/vegetable store interface.
 
-Welcome to **MegaMart**, a responsive and clean eCommerce landing page built using **HTML5** and **CSS3**. This project is a static front-end UI showcasing a simple online grocery/vegetable store interface.
+# Features
 
----
+#### Header with logo, navigation menu, and action icons (search, cart, location, profile)
+#### Product section showcasing vegetables with images and prices
 
-## ✨ Features
 
-- 🖼️ Header with logo, navigation menu, and action icons (search, cart, location, profile)
-- 🥬 Product section showcasing vegetables with images and prices
-- ✅ Responsive and centered layout using Flexbox
-- 🧾 Footer with copyright
-- 🌐 Google Fonts integration (`Noto Sans`)
+# Technologies Used
 
----
+## HTML5
+## CSS3
 
-## Made with ❤️ by mjtamil
+# Google Fonts (Noto Sans)
 
-![alt text](image-1.png)
+# Resources
 
-<!-- resourece  
-icons
-https://www.flaticon.com/animated-icons
+### Icons from Flaticon - Animated Icons
 
-ai image for blogs
-https://pixabay.com/images/
--->
+### AI-generated images for blogs from Pixabay
+
+# Screenshot
+
+![alt text](image.png)
+
+❤️ Author
+Made with ❤️ by mjtamil

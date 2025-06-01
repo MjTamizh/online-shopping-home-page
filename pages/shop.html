@@ -1,82 +1,86 @@
-    <!DOCTYPE html>
-    <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>shopping page</title>
-        <link rel="stylesheet" href="../styles/shop.css">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap"
-            rel="stylesheet">
-    </head>
+<!DOCTYPE html>
+<html lang="en">
 
-    <body>
-        <header>
-            <div class="megaMart_logo" id="">
-                <img src="../assets/Logo/online-shopping.gif" alt="megaMart_logo">
-            </div>
-            <nav class="megaMart_headerMenu" id="">
-                <ul>
-                    <li><a href="../index.html">Home</a></li>
-                    <li><a href="../pages/shop.html">Shop</a></li>
-                    <li><a href="../pages/product.html">Product</a></li>
-                    <li><a href="../pages/blogs.html">Blogs</a></li>
-                </ul>
-            </nav>
-            <div class="megaMart_headerIcons" id="">
-                <img src="../assets/Features/search.gif" alt="megaMart_search">
-                <img src="../assets/Features/shopping-cart.gif" alt="megaMart_cart">
-                <img src="../assets/Features/location.gif" alt="megaMart_locations">
-            <a href="../pages/login.html"><img src="../assets/Features/profile.gif" alt="megaMart_user">
-    </a> 
-            </div>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>shopping page</title>
+    <link rel="stylesheet" href="../styles/shop.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+</head>
 
+<body>
+    <header>
+        <div class="megaMart_logo" >
+            <img src="../assets/Gifs/home/online-shopping.gif" alt="megaMart_logo">
+        </div>
+        <nav class="megaMart_headerMenu">
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../pages/shop.html">Shop</a></li>
+                <li><a href="../pages/product.html">Product</a></li>
+                <li><a href="../pages/blogs.html">Blogs</a></li>
+            </ul>
+        </nav>
+        <div class="megaMart_headerIcons">
+            <img src="../assets/Gifs/home/search.gif" alt="megaMart_search">
+            <img src="../assets/Gifs/home/shopping-cart.gif" alt="megaMart_cart">
+            <img src="../assets/Gifs/home/location.gif" alt="megaMart_locations">
+            <a href="../pages/login.html"><img src="../assets/Gifs/home/profile.gif" alt="megaMart_user">
+            </a>
+        </div>
+    </header>
 
-        </header>
-
+    <section class="shop-Offers-title">
+        <h1>Hot Deals Today – Fresh Picks from MegaMart!</h1>
+    </section>
 
     <main>
-    <section class="productCart_Offer_Main">
+        <section class="productCart_Offer_Main">
+            
+            <!-- Sweet Potato Card -->
+            <div class="productCart_Offers_Each_Card">
+                <img src="../assets/images/shop/sweet-potato.png" alt="sweet_potato_picture"
+                    id="productCart_Offers_Each_Card_Img">
 
-        <!-- Sweet Potato Card -->
-        <div class="productCart_Offers_Each_Card"> 
-        <img src="../assets/images/vegtables/sweet-potato.png" alt="sweet_potato_picture" id="productCart_Offers_Each_Card_Img">
+                <div class="productCart_Offers_subHeading_Div">
+                    <img src="../assets/Gifs/shop/arrow.gif" alt="pointValue">
+                    <h3>Sweet Potato - 20% OFF</h3>
+                </div>
+                <p>Sweet potatoes are naturally sweet, rich in fiber, and packed with vitamins. Grab them fresh at 20%
+                    off!</p>
+                <button>Order Now</button>
+            </div>
 
-        <div class="productCart_Offers_subHeading_Div">
-            <img src="../assets/images/productCart/arrow.gif" alt="pointValue">
-            <h3>Sweet Potato - 20% OFF</h3>
-        </div>
-        <p>Sweet potatoes are naturally sweet, rich in fiber, and packed with vitamins. Grab them fresh at 20% off!</p>
-        <button>Order Now</button>
-        </div>
+            <!-- Beetroot Card -->
+            <div class="productCart_Offers_Each_Card">
+                <img src="../assets/images/shop/beetroot.png" alt="beetroot_picture"
+                    id="productCart_Offers_Each_Card_Img">
 
-        <!-- Beetroot Card -->
-        <div class="productCart_Offers_Each_Card"> 
-        <img src="../assets/images/vegtables/beetroot.png" alt="beetroot_picture" id="productCart_Offers_Each_Card_Img">
+                <div class="productCart_Offers_subHeading_Div">
+                    <img src="../assets/Gifs/shop/arrow.gif" alt="pointValue">
+                    <h3>Beetroot - 30% OFF</h3>
+                </div>
+                <p>Beetroot is full of antioxidants and known for improving blood flow. Enjoy it now with 30% off!</p>
+                <button>Order Now</button>
+            </div>
 
-        <div class="productCart_Offers_subHeading_Div">
-            <img src="../assets/images/productCart/arrow.gif" alt="pointValue">
-            <h3>Beetroot - 30% OFF</h3>
-        </div>
-        <p>Beetroot is full of antioxidants and known for improving blood flow. Enjoy it now with 30% off!</p>
-        <button>Order Now</button>
-        </div>
-
-    </section>
+        </section>
     </main>
 
 
-        <!-- <footer> MegaMart – Everything You Need, All in One Place</footer> -->
-        <footer>
-            <p> &copy; 2025 ShopSmart. All rights reserved.</p>
-        </footer>
+    <footer>
+        <p> &copy; 2025 ShopSmart. All rights reserved.</p>
+    </footer>
 
-    </body>
+</body>
 
-    </html>
+</html>
 
-    <!-- <!DOCTYPE html>
+<!-- <!DOCTYPE html>
     <html lang="en">
     <head>
         <meta charset="UTF-8">

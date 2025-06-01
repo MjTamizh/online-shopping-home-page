@@ -1,124 +1,107 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title> Veggie </title>
-  <link rel="stylesheet" href="../styles/veglist.css" />
+  <link rel="stylesheet" href="../styles/product.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
 </head>
+
 <body>
-
+<!-- header section with navigation and logo -->
   <header>
-    <h1>MegaMart Veggie List</h1>
-    <p>Explanation about vegetables with  video!</p>
+    <div class="megaMart_logo" id="">
+      <img src="../assets/Gifs/home/online-shopping.gif" alt="megaMart_logo">
+    </div>
+    <nav class="megaMart_headerMenu" id="">
+      <ul>
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="../pages/shop.html">Shop</a></li>
+        <li><a href="../pages/product.html">Product</a></li>
+        <li><a href="../pages/blogs.html">Blogs</a></li>
+      </ul>
+    </nav>
+    <div class="megaMart_headerIcons" id="">
+      <img src="../assets/Gifs/home/search.gif" alt="megaMart_search">
+      <img src="../assets/Gifs/home/shopping-cart.gif" alt="megaMart_cart">
+      <img src="../assets/Gifs/home/location.gif" alt="megaMart_locations">
+      <a href="../pages/product.html"><img src="../assets/Gifs/home/profile.gif" alt="megaMart_user">
+      </a>
+    </div>
   </header>
+<!-- product  -->
+  <main>
 
-  <main class="veggie-container">
-    <!-- Tomato -->
+    <section class="product-intro">
+      <div class="product-image">
+        <img src="../assets/images/product/product_logo.jpg" alt="Product Logo">
+      </div>
 
-<section class="veggie-card">
-  <h2>Tomato</h2>
-  
-  <video controls width="300">
-    <source src="video/tomato.mp4" type="video/mp4" />
-  </video>
-  <div class="map">
-    <iframe
-      src="https://www.google.com/maps?q=Nashik+India&output=embed"
-      width="100%"
-      height="200"
-      style="border:0;"
-      allowfullscreen=""
-      loading="lazy">
-    </iframe>
+      <div class="product-description">
+        <h1>Our Products</h1>
+        <p>
+          For over 10 years, MegaMart has been a trusted name in the fresh vegetable market, building strong
+          relationships with reputable farmers and suppliers to provide our customers with high-quality produce. Our
+          wide range of products includes everyday essentials and seasonal favorites—offering everything from leafy
+          greens and root vegetables to exotic and organic varieties. With a focus on freshness, nutrition, and
+          sustainability, each item is carefully selected and handled to meet the highest standards. Whether you're
+          shopping for daily meals or exploring unique ingredients, MegaMart ensures a healthy and flavorful experience
+          in every bite.
+        </p>
+      </div>
+    </section>
+
+ <!-- Add this inside the product-gallery section -->
+<section class="product-gallery">
+  <div>
+    <img src="/assets/images/product/gallery/Chili-Pepper.jpg" alt="Chili Pepper">
+    <h4>Chili Pepper</h4>
+  </div>
+  <div>
+    <img src="/assets/images/product/gallery/Corn.jpg" alt="Corn">
+    <h4>Sweet Corn</h4>
+  </div>
+  <div>
+    <img src="/assets/images/product/gallery/Cucumber.jpg" alt="Cucumber">
+    <h4>Cool Cucumber</h4>
+  </div>
+  <div>
+    <img src="/assets/images/product/gallery/Eggplant.jpg" alt="Eggplant">
+    <h4>Fresh Eggplant</h4>
+  </div>
+  <div>
+    <img src="/assets/images/product/gallery/Onions.jpg" alt="Onions">
+    <h4>Red Onions</h4>
+  </div>
+  <div>
+    <img src="/assets/images/product/gallery/Potatoes.jpg" alt="Potatoes">
+    <h4>Farm Potatoes</h4>
+  </div>
+  <div>
+    <img src="/assets/images/product/gallery/Spinach.jpg" alt="Spinach">
+    <h4>Green Spinach</h4>
+  </div>
+  <div>
+    <img src="/assets/images/product/gallery/Tomato.jpg" alt="Tomato">
+    <h4>Juicy Tomatoes</h4>
   </div>
 </section>
-<section class="veggie-card">
-  <h2>Tomato</h2>
-  
-  <video controls width="300">
-    <source src="video/tomato.mp4" type="video/mp4" />
-  </video>
-  <div class="map">
-    <iframe
-      src="https://www.google.com/maps?q=Nashik+India&output=embed"
-      width="100%"
-      height="200"
-      style="border:0;"
-      allowfullscreen=""
-      loading="lazy">
-    </iframe>
-  </div>
-</section>
-<section class="veggie-card">
-  <h2>Tomato</h2>
-  
-  <video controls width="300">
-    <source src="video/tomato.mp4" type="video/mp4" />
-  </video>
-  <div class="map">
-    <iframe
-      src="https://www.google.com/maps?q=Nashik+India&output=embed"
-      width="100%"
-      height="200"
-      style="border:0;"
-      allowfullscreen=""
-      loading="lazy">
-    </iframe>
-  </div>
-</section>
-<section class="veggie-card">
-  <h2>Tomato</h2>
-  
-  <video controls width="300">
-    <source src="video/tomato.mp4" type="video/mp4" />
-  </video>
-  <div class="map">
-    <iframe
-      src="https://www.google.com/maps?q=Nashik+India&output=embed"
-      width="100%"
-      height="200"
-      style="border:0;"
-      allowfullscreen=""
-      loading="lazy">
-    </iframe>
-  </div>
-</section>
-<section class="veggie-card">
-  <h2>Tomato</h2>
-  
-  <video controls width="300">
-    <source src="video/tomato.mp4" type="video/mp4" />
-  </video>
-  <div class="map">
-    <iframe
-      src="https://www.google.com/maps?q=Nashik+India&output=embed"
-      width="100%"
-      height="200"
-      style="border:0;"
-      allowfullscreen=""
-      loading="lazy">
-    </iframe>
-  </div>
-</section>
-<section class="veggie-card">
-  <h2>Tomato</h2>
- 
-  <video controls width="300">
-    <source src="video/tomato.mp4" type="video/mp4" />
-  </video>
-  <div class="map">
-    <iframe
-      src="https://www.google.com/maps?q=Nashik+India&output=embed"
-      width="100%"
-      height="200"
-      style="border:0;"
-      allowfullscreen=""
-      loading="lazy">
-    </iframe>
-  </div>
-</section>
+
+
+
   </main>
+<!-- footer section with copyright -->
+
+  <footer>
+    <p> &copy; 2025 ShopSmart. All rights reserved.</p>
+  </footer>
+
 
 </body>
+
 </html>
