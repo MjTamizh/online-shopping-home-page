@@ -26,4 +26,3 @@ https://www.flaticon.com/animated-icons
 ai image for blogs
 https://pixabay.com/images/
 -->
-all created by mj tamil
